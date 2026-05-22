@@ -1,0 +1,16 @@
+fallocate -l +1G file6
+ls -lh
+zip file.zip movies/
+unzip file.zip
+gzip -v file.zip
+gzip only compress file
+-v verbhouse
+gzip -d = decompress
+gzip -kv file.zip
+tar backup tool
+tar -cvf etc-backup.tar 
+du -sh /etc/
+tar -cvzf etc-backup.tar.gh /etc/
+tar -xvf etc-backup.tar.gh /etc/
+tar -tvf etc-backup.tar.gh /etc/
+tar -tvf etc-backup.tar.bz2 /etc/
